@@ -4,6 +4,7 @@
 	
 	$("#rss-feeds").rss(channelOsvitaIT,
 	{
+		ssl: true,
 		limit: 10,
 		entryTemplate:'<li><a href="{url}" target="__blank">{title}</a><br/>{teaserImage}{shortBodyPlain}</li>'
 	})
