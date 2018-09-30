@@ -1,0 +1,44 @@
+﻿.navbar {
+	background-color: lightpink !important;
+}
+
+.navbar a.active {
+	color: hotpink !important;
+}
+
+.navbar .btn-outline-success {
+	color: hotpink !important;
+	border-color: hotpink !important;
+}
+
+.navbar .btn-outline-success:hover {
+	background-color: pink !important;
+}
+
+.my-main-area {
+	background-color: pink;
+	padding-top: 70px;
+}
+
+.col-sm-3 > img {
+	width: 100%;
+}
+
+.my-rss-area h4 {
+	text-align: center;
+}
+
+.my-rss-container {
+	max-height: 620px;
+	overflow-y: scroll;
+}
+
+.my-rss-container img {
+	max-width: 100%;
+}
+
+#about-page {
+	background-color: lightpink !important;
+	padding-top: 20px;
+	margin-top: 20px;
+}
